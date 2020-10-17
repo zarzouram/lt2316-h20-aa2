@@ -12,7 +12,7 @@ def parallel_coordinates(save_dir, metric="loss"):
     # parallell coordination plot to display the scores for each hyperparamater
     
     model_files = glob(save_dir+ "/*.pt")
-    print("models found:", model_files)
+    # print("models found:", model_files)
     
     rows = []
     for model_file in model_files:
